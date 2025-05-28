@@ -1,4 +1,4 @@
-package se.iths.java24.textadventure;
+package se.iths.java24.textadventure.world;
 
 public class Room {
     String name;

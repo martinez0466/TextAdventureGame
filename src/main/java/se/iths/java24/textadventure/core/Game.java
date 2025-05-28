@@ -1,5 +1,6 @@
-package se.iths.java24.textadventure;
+package se.iths.java24.textadventure.core;
 
+import se.iths.java24.textadventure.world.Room;
 import java.util.Scanner;
 
 public class Game {
@@ -19,6 +20,6 @@ public class Game {
         // Skapa vårt första rum-objekt
         Room startingRoom = new Room("En mörk grotta", "Fukt droppar från taket. Det är svårt att se något speciellt i mörkret.");
         // Sätt spelarens nuvarande rum till det rum vi just skapade
-        currentRoom = startingRoom
+        currentRoom = startingRoom;
     }
 }
