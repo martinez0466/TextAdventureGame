@@ -9,4 +9,10 @@ public class Room {
         this.name = name;
         this.description = description;
     }
+
+    // Metod för att visa rummets information
+    public void displayRoomInfo(){
+        System.out.println("Du är i: " + name);
+        System.out.println(description);
+    }
 }
