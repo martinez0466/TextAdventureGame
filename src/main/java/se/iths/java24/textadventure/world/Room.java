@@ -23,7 +23,7 @@ public class Room {
         if (exits.isEmpty()) {
             System.out.println("Inga uppenbara utgångar.");
         } else {
-            for (String direction : exits.keySet()) { //loopa igenom alla nycklar (riktningar) i utgångs-mappen
+            for (String direction : exits.keySet()) { // loopa igenom alla nycklar (riktningar) i utgångs-mappen
                 System.out.println(direction + " ");
             }
             System.out.println(); // Ny rad efter utgångarna
